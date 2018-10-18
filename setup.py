@@ -9,7 +9,7 @@ VERSION = "0.1.0"
 
 DIR = dirname(abspath(__file__))
 
-with fopen(join(DIR, 'README.rst'), encoding='utf-8') as f:
+with fopen(join(DIR, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
